@@ -9,10 +9,13 @@ using AzureDevops.Models;
 
 namespace AzureDevops.Controllers
 {
+    // test 2
+    // Test
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
+        // Feature A commit 2
         // Feature A commit 1
         public HomeController(ILogger<HomeController> logger)
         {
@@ -21,6 +24,7 @@ namespace AzureDevops.Controllers
 
         // Main Commit 1
         // Main Commit 1
+        // Main Simple Merge
 
         public IActionResult Index()
         {
